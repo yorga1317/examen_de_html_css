@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7eef7;
+}
+
+main{
+  height: 90%;
+  width: 400px;
+  background-color: rgb(228, 234, 236);
+}
+
+.regresar{
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.regresar a{
+  text-decoration: none;
+  color: black;
+}
+
+.texto{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iniciar{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.iniciar input{
+  all: unset;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 70%;
+}
+
+.final{
+    padding: 20px;
+}
+.final a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ingresar{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingresar a{
+  text-decoration: none;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 40px;
+  border-radius: 10px;
+}
+
+p{
+    gap: 10px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
