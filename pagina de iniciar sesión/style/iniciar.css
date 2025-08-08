@@ -57,6 +57,10 @@ main{
   width: 70%;
 }
 
+.final{
+  padding: 20px;
+}
+
 .final a {
   margin-top: 30px;
   text-decoration: none;
